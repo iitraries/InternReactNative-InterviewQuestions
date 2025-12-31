@@ -1,0 +1,50 @@
+## A. Android Lifecycle (Activity Awareness)
+1. What is an **Activity** in Android, and why is it relevant even when using React Native?
+2. At a high level, what happens when an Android app goes from **foreground → background → foreground**?
+3. Why do Android apps sometimes get **killed in the background**, and how does that affect React Native apps?
+4. What kinds of bugs appear if an app assumes it will always resume from memory?
+5. How does Android’s lifecycle differ conceptually from iOS’s app lifecycle?
+
+---
+
+## B. Permissions (Runtime Behavior)
+6. Why does Android require **runtime permissions**, and why is this more complex than install-time permissions?
+7. What happens if a React Native app tries to access a feature **without permission** on Android?
+8. Why must permission handling be tied to **user intent**, not app startup?
+9. How do permission flows differ between Android and iOS from a UX and logic perspective?
+---
+
+## C. Hardware Back Button (Selection Booster)
+10. Why does Android have a **system back button** while iOS does not?
+11. What is the default behavior of the Android back button in a React Native app?
+12. Why can the back button cause **unexpected app exits** if not handled correctly?
+13. In what situations should the back button be **overridden**, and when should it not?
+14. Why does back navigation behave differently between stack, tab, and modal screens on Android?
+
+---
+## D. APK vs AAB (Release Awareness)
+15. What is the difference between an **APK** and an **AAB**, conceptually?
+16. Why does Google Play prefer **AABs** over APKs?
+17. How does AAB affect **app size and delivery** on different devices?
+18. Why is this distinction mostly invisible during development but critical during release?
+
+---
+## E. Android vs iOS Differences in React Native
+19. Why do the same React Native components sometimes behave differently on Android vs iOS?
+20. What layout or styling differences are most commonly noticed between Android and iOS?
+21. Why does text rendering often look different across the two platforms?
+22. How do default gestures and navigation expectations differ between Android and iOS users?
+
+---
+## F. Platform-Specific Code (Selection Booster)
+23. Why does React Native provide `Platform.OS` instead of enforcing uniform behavior?
+24. When is it acceptable to write **platform-specific code**, and when is it a design smell?
+25. Why can excessive platform branching make a codebase harder to maintain?
+26. What kinds of features almost always require **platform-specific handling**?
+
+---
+## G. Real-World Stability & Debugging
+27. Why do Android-specific bugs often appear only on **certain devices or OS versions**?
+28. How do low-memory devices expose issues that high-end devices hide?
+29. Why might an app work perfectly on iOS but crash or lag on Android?
+30. What Android-specific considerations matter most for an intern working on a React Native app?
