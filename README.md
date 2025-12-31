@@ -128,30 +128,6 @@ Includes **safe, intern-appropriate answers**.
 
 ---
 
-## 🎯 How To Use This Repo
-
-* Use it as a **checklist**, not a memorization sheet
-* Practice **explaining answers out loud**
-* Focus on **clarity and awareness**
-* Ideal for:
-
-  * Mock interviews
-  * Last-week revision
-  * Confidence building before interviews
-
----
-
-## 🚫 What This Repo Is NOT
-
-* ❌ Not a React Native tutorial
-* ❌ Not Android native (Kotlin / Java) prep
-* ❌ Not DSA / LeetCode focused
-* ❌ Not framework API documentation
-
-This is **interview-targeted preparation**.
-
----
-
 ## ⭐ Final Note
 
 > Intern interviews don’t expect mastery.
